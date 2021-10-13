@@ -1,0 +1,73 @@
+:root {
+  --background-primary: #ecf0f1;
+  --background-secondary: #e5e5e5;
+  --background-footer: #636789;
+  --color-one: #ffffff;
+  --color-two: #636363;
+  --color-hover-one: #1766ff;
+  --color-hover-two: #636789;
+  --color-hover-three: #a6b6cc;
+  --color-font-primary: #3f4359;
+  --color-font-secondary: #636789;
+  --color-font-one: #767676;
+  --color-font-two: #27ae60;
+  --line-divisor-primary: #636789;
+  --line-divisor-secondary: #e5e5e5;
+}
+
+.main-onlys {
+    width: 680px;
+    margin: auto;
+}
+
+.biblia h4 {
+    font: 900 36px 'Overpass', sans-serif;
+    text-transform: uppercase;
+    color: var(--color-font-primary);
+}
+
+.biblia p {
+    font: 400 18px 'Heebo', sans-serif;
+    color: var(--color-font-secondary);
+    text-align: justify;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+    .main-onlys {
+        width: 500px;
+        margin: auto;
+    }
+
+    .biblia h4 {
+        font: 900 32px 'Overpass', sans-serif;
+        text-transform: uppercase;
+        color: var(--color-font-primary);
+    }
+
+    .biblia p {
+        font: 400 16px 'Heebo', sans-serif;
+        color: var(--color-font-secondary);
+        text-align: justify;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-onlys {
+        width: auto;
+        margin: 150px 70px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .main-onlys {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .biblia h4 {
+        font-size: 24px;
+    }
+}
