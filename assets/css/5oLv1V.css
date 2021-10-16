@@ -1,0 +1,182 @@
+:root {
+  --background-primary: #ecf0f1;
+  --background-secondary: #e5e5e5;
+  --background-footer: #636789;
+  --color-one: #ffffff;
+  --color-two: #636363;
+  --color-hover-one: #1766ff;
+  --color-hover-two: #636789;
+  --color-hover-three: #a6b6cc;
+  --color-font-primary: #3f4359;
+  --color-font-secondary: #636789;
+  --color-font-one: #767676;
+  --color-font-two: #27ae60;
+  --line-divisor-primary: #636789;
+  --line-divisor-secondary: #e5e5e5;
+}
+
+.main-onlys {
+  width: 580px;
+  margin: auto;
+}
+
+.acept, .infos {
+  margin-bottom: 20px;
+}
+
+.acept h1 {
+  font: 900 50px 'Overpass', sans-serif;
+  color: var(--color-font-primary);
+}
+
+.acept p {
+  font: 400 15px 'Rubik', sans-serif;
+  color: var(--color-font-one);
+  line-height: 20px;
+  text-align: justify;
+  margin: 8px 0;
+}
+
+.acept a {
+  font: 500 15px 'Heebo', sans-serif;
+  color: var(--color-font-secondary);
+  position: relative;
+  text-decoration: none;
+}
+
+.acept a, .infos a {
+  position: relative;
+  width: max-content;
+}
+
+.acept a:hover, .infos a:hover {
+  color: var(--color-font-primary);
+}
+
+.acept a::after, .infos a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: var(--color-font-primary);
+
+  position: absolute;
+  left: 0;
+  bottom: -0.01rem;
+
+  transition: width 0.3s;
+}
+
+.acept a:hover::after, .infos a:hover::after {
+  width: 100%;
+}
+
+.infos h3, .help-center h3 {
+  font: 800 25px 'Overpass', sans-serif;
+  color: var(--color-font-secondary);
+  margin-bottom: 10px;
+}
+
+.infos a, .infos p, .help-center p {
+  font: 400 15px 'Rubik', sans-serif;
+  color: var(--color-font-one);
+  line-height: 20px;
+  text-align: justify;
+  text-decoration: none;
+}
+
+.btn-next, .btn-help {
+  border: 2px solid var(--color-two);
+  font: 500 20px 'Rubik', sans-serif;
+  color: var(--color-font-primary);
+  position: relative;
+}
+
+.btn-next, .btn-help {
+  background: var(--background-primary);
+  color: var(--color-font-two);
+  border: 2px solid rgb(31, 32, 68);
+  position: relative;
+  padding: 12px 30px 17px 35px;
+  text-align: center;
+  margin-top: 15px;
+  z-index: initial;
+}
+
+.main button::after, .main button::before {
+  background-color: rgb(31, 32, 68);
+  bottom: -6px;
+  content: "";
+  display: block;
+  position: absolute;
+  left: -7px;
+}
+
+.btn-next:hover::before, .btn-help:hover::before {
+  right: -2px;
+  transition: 0.5s;
+}
+
+.btn-next:hover::after, .btn-help:hover::after {
+  top: -2px;
+  transition: 0.5s;
+}
+
+.main button::after {
+  top: 15px;
+  transition: width 0.2s ease 0s;
+  width: 6px;
+}
+
+.main button::before {
+  height: 6px;
+  right: 30px;
+  transition: height 0.2s ease 0s;
+}
+
+.btn-next span, .btn-help span {
+  position: relative;
+}
+
+.btn-next:hover, .btn-help:hover {
+  color: var(--color-hover-one);
+}
+
+.btn-next span::after, .btn-help span::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: var(--color-hover-one);
+  position: absolute;
+  left: 0;
+  bottom: -0.01rem;
+  transition: width 0.3s;
+}
+
+.btn-next span:hover::after, .btn-help span:hover::after {
+  width: 100%;
+}
+
+button {
+  user-select: none;
+}
+
+@media screen and (max-width: 768px) {
+  .main-onlys {
+    width: auto;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .acept h1 {
+    font-size: 35px;
+  }
+
+  .infos h3, .help-center h3 {
+    font-size: 20px;
+  }
+
+  .btn-next, .btn-help {
+    font-size: 15px;
+  }
+}
