@@ -1,0 +1,106 @@
+:root {
+  --background-primary: #ecf0f1;
+  --background-secondary: #e5e5e5;
+  --background-footer: #636789;
+  --color-one: #ffffff;
+  --color-two: #636363;
+  --color-hover-one: #1766ff;
+  --color-hover-two: #636789;
+  --color-hover-three: #a6b6cc;
+  --color-font-primary: #3f4359;
+  --color-font-secondary: #636789;
+  --color-font-one: #767676;
+  --color-font-two: #27ae60;
+  --line-divisor-primary: #636789;
+  --line-divisor-secondary: #e5e5e5;
+}
+
+.main-onlys {
+  width: 580px;
+  margin: auto;
+}
+
+#lucas {
+  margin-top: 50px;
+}
+
+.chamado h1 {
+  font: 900 50px "Overpass", sans-serif;
+  color: var(--color-font-primary);
+}
+
+.chamado p,
+#lucas p {
+  font: 400 15px "Rubik", sans-serif;
+  color: var(--color-font-one);
+  line-height: 20px;
+  text-align: justify;
+  margin: 8px 0;
+}
+
+#lucas h3 {
+  font: 800 25px "Overpass", sans-serif;
+  color: var(--color-font-secondary);
+  margin-bottom: 10px;
+}
+
+.chamado a {
+  font: 400 15px "Rubik", sans-serif;
+  color: var(--color-font-one);
+  line-height: 20px;
+  text-align: justify;
+  text-decoration: none;
+  position: relative;
+}
+
+.chamado a:hover {
+  color: var(--color-font-primary);
+}
+
+.chamado a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: var(--color-font-primary);
+
+  position: absolute;
+  left: 0;
+  bottom: -0.01rem;
+
+  transition: width 0.3s;
+}
+
+.chamado a:hover::after {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .main-onlys {
+    width: auto;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .chamado h1 {
+    font-size: 35px;
+  }
+
+  #lucas h3 {
+    font-size: 20px;
+  }
+}
+
+/* Background - Image */
+
+.banner-image img {
+  height: 29rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+@media screen and (max-width: 426px) {
+  .img-called img {
+    height: 20rem;
+  }
+}
