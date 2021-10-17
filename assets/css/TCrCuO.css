@@ -1,0 +1,100 @@
+:root {
+  --background-primary: #ecf0f1;
+  --background-secondary: #e5e5e5;
+  --background-footer: #636789;
+  --color-one: #ffffff;
+  --color-two: #636363;
+  --color-hover-one: #1766ff;
+  --color-hover-two: #636789;
+  --color-hover-three: #a6b6cc;
+  --color-font-primary: #3f4359;
+  --color-font-secondary: #636789;
+  --color-font-one: #767676;
+  --color-font-two: #27ae60;
+  --line-divisor-primary: #636789;
+  --line-divisor-secondary: #e5e5e5;
+}
+
+.main-onlys {
+    width: 50%;
+    margin: auto;
+}
+
+.only-container {
+    margin: 260px 0;
+}
+
+.texts-only {
+    padding: 45px;
+    background: var(--background-primary);
+    border-radius: 7px;
+    margin-bottom: 80px;
+}
+
+.texts-only h3 {
+    font: 800 25px 'Overpass', Sans-serif;
+    color: var(--color-font-primary);
+}
+
+.texts-only p {
+    font: 400 16px 'Heebo', Sans-serif;
+    color: var(--color-font-one);
+    line-height: 22px;
+    text-align: justify;
+    margin: 25px 0;
+}
+
+.texts-only nav {
+    user-select: none;
+}
+
+#button1 {
+    margin-right: 20px !important;
+}
+
+.main button {
+    font: 500 15px "Rubik", Sans-serif;
+    color: var(--color-two);
+    user-select: none;
+    cursor: pointer;
+}
+.main button {
+    height: 50px !important;
+    width: 173px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: var(--background-primary);
+    border: 2px solid var(--color-hover-two);
+    border-radius: 7px;
+}
+
+.main button:hover {
+    color: var(--color-font-primary);
+    box-shadow: rgb(0 0 0 / 25%) 0px 14px 28px, rgb(0 0 0 / 22%) 0px 10px 10px;
+    transition: 0.3s;
+}
+
+.creators {
+    display: flex;
+    justify-content: center;
+}
+
+.creators p, .creators span {
+    margin-right: 8px;
+    font: 500 12px "Rubik", Sans-serif;
+    color: var(--color-font-one);
+    user-select: none;
+    text-decoration: none;
+}
+
+.creators a {
+    margin-right: 3px;
+    font: 500 12px "Rubik", Sans-serif;
+    color: var(--color-font-one);
+    user-select: none;
+    text-decoration: none;
+}
+
+.creators a:hover {
+    color: var(--color-font-primary);
+}
