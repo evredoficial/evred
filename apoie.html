@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colabore | EVRED - Evangelho do Reino de Deus</title>
 
-    <link href="/assets/css/Styles01.css" rel="stylesheet"/>
-    <link href="/assets/css/5oLv1V.css" rel="stylesheet"/>
+    <link href="/assets/css/Styles02.css" rel="stylesheet"/>
+    <link href="/assets/css/fuKqbq.css" rel="stylesheet"/>
     <link href="/assets/image/Flaticon.png" type="image/x-icon" rel="shortcut icon"/>
     <link href="/assets/image/Flaticon.ico" type="image/x-icon" rel="shortcut icon"/>
 
@@ -57,11 +57,34 @@
       @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Overpass:wght@800&family=Rubik:wght@400;500;600&display=swap');
     </style>
 </head>
-<body>
+<body id="body">
     <header class="header" id="header">
         <section class="header-onlys">
             <img src="/assets/image/Logo-EVRED.png" alt="EVRED - Evangelho do Reino de Deus"/>
-            <button class="btn-home" onclick="window.location.href='/'">Home</button>
+            <div class="onlys-nav">
+                <nav class="container">
+                    <div class="menu">
+                        <ul class="grid">
+                            <li><a class="navs" href="/">Home</a></li>
+                            <li><a class="navs" href="/bases/">Endereços</a></li>
+                            <li><a class="navs" href="/projetos/">Projetos</a></li>
+                            <li><a class="navs" id="navs" href="/contato.html">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="toggle open">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                            <path d="M0 0h24v24H0V0z" fill="none" />
+                            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+                        </svg>
+                    </div>
+                    <div class="toggle close">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
+                            <path d="M0 0h24v24H0V0z" fill="none" />
+                            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z" />
+                        </svg>
+                    </div>
+                </nav>
+            </div>
         </section>
         <div class="divisor-header"></div>
     </header>
@@ -92,8 +115,8 @@
                             <a href="/contato.html">Contato</a>
                             <a href="/apoie.html">Colabore</a>
                             <a href="/nosso-chamado.html">Nosso Chamado</a>
-                            <a href="/bases/">Endereços</a>
                             <a href="/projetos/">Projetos</a>
+                            <a href="/sitemap.html">SiteMap</a>
                         </nav>
                         <nav class="bases">
                             <h3>Endereços</h3>
@@ -137,6 +160,7 @@
                             <a href="https://pages.evred.com/termos/termo-de-uso.html">Termo de Uso</a>
                             <a href="https://pages.evred.com/termos/direito-autorais.html">Direito Autorais</a>
                             <a href="https://pages.evred.com/termos/termo-de-contato.html">Termo de Contato</a>
+                            <a href="/estatuto">Estatuto</a>
                         </nav>
                     </div>
                 </line>
@@ -171,4 +195,5 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="/assets/javascript/year.js"></script>
 <script type="text/javascript" src="/assets/javascript/back-top.js"></script>
+<script type="text/javascript" src="/assets/javascript/menu.js"></script>
 </html>
