@@ -1,0 +1,145 @@
+:root {
+  --background-primary: #ecf0f1;
+  --background-secondary: #e5e5e5;
+  --background-footer: #636789;
+  --color-one: #ffffff;
+  --color-two: #636363;
+  --color-hover-one: #1766ff;
+  --color-hover-two: #636789;
+  --color-hover-three: #a6b6cc;
+  --color-font-primary: #3f4359;
+  --color-font-secondary: #636789;
+  --color-font-one: #767676;
+  --color-font-two: #27ae60;
+  --line-divisor-primary: #636789;
+  --line-divisor-secondary: #e5e5e5;
+}
+
+.text h1 {
+  font: 800 45px 'Overpass', sans-serif;
+  color: var(--color-font-primary);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.text p {
+  font: 400 15px 'Rubik', sans-serif;
+  color: var(--color-font-one);
+  width: 30%;
+  text-align: center;
+  margin: auto;
+}
+
+line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  margin-bottom: 50px;
+}
+
+#center {
+  margin: 0 25px;
+}
+
+.main a {
+  width: 290px;
+  height: 85px;
+  border-radius: 8px;
+  background-color: var(--color-font-secondary);
+  padding: 15px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 7px;
+  background-color: var(--background-primary);
+  margin-right: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon img {
+  width: 33px;
+}
+
+.line-btn-two {
+  margin-top: 25px;
+}
+
+.main a {
+  display: flex;
+  align-items: center;
+}
+
+.main h3 {
+  margin: 0;
+  font: 600 25px 'Rubik', sans-serif;
+  color: var(--color-hover-three);
+}
+
+.main a:hover {
+  background-color: var(--color-font-primary);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;  
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 964px) {
+  .text p {
+    width: 80%;
+  }
+
+  .btn-bases {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  line {
+    flex-direction: column;
+  }
+
+  .line-btn-two {
+    margin-top: 0;
+    margin-left: 50px;
+  }
+
+  #center {
+    margin: 25px 0;
+  }
+}
+
+@media screen and (max-width: 679px) {
+  .btn-bases {
+    flex-direction: column;
+  }
+
+  .line-btn-two {
+    margin-left: 0;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .text p {
+    width: auto;
+  }
+
+  .bases {
+    margin-right: 0;
+  }
+
+  .main {
+    margin: 100px 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main {
+    margin: 100px 8px;
+  }
+}

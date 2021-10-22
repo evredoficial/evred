@@ -110,7 +110,7 @@
   position: absolute;
   left: -7px;
 }
-
+ 
 .btn-next:hover::before, .btn-help:hover::before {
   right: -2px;
   transition: 0.5s;
