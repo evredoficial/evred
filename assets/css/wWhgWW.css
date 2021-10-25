@@ -1,0 +1,144 @@
+:root {
+  --background-primary: #ecf0f1;
+  --background-secondary: #e5e5e5;
+  --background-footer: #636789;
+  --color-one: #ffffff;
+  --color-two: #636363;
+  --color-hover-one: #1766ff;
+  --color-hover-two: #636789;
+  --color-hover-three: #a6b6cc;
+  --color-font-primary: #3f4359;
+  --color-font-secondary: #636789;
+  --color-font-one: #767676;
+  --color-font-two: #27ae60;
+  --line-divisor-primary: #636789;
+  --line-divisor-secondary: #e5e5e5;
+  --color-selections: #4d4d57;
+  --color-selections-two: #c3c1d1;
+}
+
+.ly {
+    display: grid;
+}
+
+.main-onlys {
+    width: fit-content;
+    margin: auto;
+}
+
+.main h4 {
+    font: 600 25px 'Rubik', sans-serif;
+    color: var(--color-font-primary);
+    margin-bottom: 15px;
+}
+
+.main a {
+    font: 400 18px 'Heebo', sans-serif;
+    color: var(--color-font-one);
+    text-decoration: none;
+    line-height: 35px;
+    position: relative;
+    width: fit-content;
+}
+
+.main a:hover {
+  color: var(--color-font-primary);
+}
+
+.main a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: var(--color-font-primary);
+
+  position: absolute;
+  left: 0;
+  bottom: -0.01rem;
+
+  transition: width 0.3s;
+}
+
+.main a:hover::after {
+  width: 100%;
+}
+
+.lines01, .lines02 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.lines02 {
+    margin: 50px 0;
+}
+
+.nav-pages, .nav-bases {
+    margin: 0 50px;
+}
+
+.nav-outros-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .lines01, .lines02 {
+        flex-direction: column;
+    }
+
+    .nav-outros {
+        display: none;
+    }
+
+    .nav-outros-mobile {
+        display: block;
+    }
+
+    .links {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .nav-bases, .nav-pages {
+        margin: 0;
+    }
+
+    .lines01 {
+        margin-right: 25px;
+    }
+
+    .lines02 {
+        margin-left: 25px;
+    }
+
+    nav {
+        margin-bottom: 35px !important;
+    }
+
+    .nav-outros-mobile {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 513px) {
+    .main h4 {
+        font-size: 21px;
+    }
+
+    .header-onlys {
+        padding: 12px 2rem;
+    }
+
+    .main a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .links {
+        flex-direction: column;
+    }
+
+    .lines01, .lines02 {
+        margin: 0;
+    }
+}

@@ -503,6 +503,12 @@ img,
   width: auto;
 }
 
+@media screen and (min-width: 1208px) {
+  .main-onlys {
+    padding: 0 220px;
+  }
+}
+
 @media screen and (max-width: 1120px) {
   .contato {
     flex-direction: column;

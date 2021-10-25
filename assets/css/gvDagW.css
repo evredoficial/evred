@@ -1,0 +1,258 @@
+:root {
+  --background-primary: #ecf0f1;
+  --background-secondary: #e5e5e5;
+  --background-footer: #636789;
+  --color-one: #ffffff;
+  --color-two: #636363;
+  --color-hover-one: #1766ff;
+  --color-hover-two: #636789;
+  --color-hover-three: #a6b6cc;
+  --color-font-primary: #3f4359;
+  --color-font-secondary: #636789;
+  --color-font-one: #767676;
+  --color-font-two: #27ae60;
+  --line-divisor-primary: #636789;
+  --line-divisor-secondary: #e5e5e5;
+}
+
+a {
+    user-select: none;
+}
+
+.background-image {
+    background-image: url(../image/30171218_1501823763261432_6662596179673377366_o.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 50rem;
+}
+
+.main {
+    margin-top: 35px;
+}
+
+.main-onlys {
+  width: 815px;
+  margin: auto;
+}
+
+.main-onlys img {
+    width: 100%;
+}
+
+.projetos h1, .eventos h1 {
+    font: 800 60px 'Overpass', sans-serif;
+    color: var(--color-font-primary);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.collum {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.collum-one {
+    margin-right: 20px;
+}
+
+.collum-two {
+    margin-left: 20px;
+}
+
+.jovens img, .pezinho img {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    width: 24rem;
+}
+
+.jovens img {
+    width: 26rem;
+}
+
+.jovens h2, .pezinho h2 {
+    font: 600 34px 'Rubik', sans-serif;
+    color: var(--color-font-secondary);
+}
+
+.jovens p, .pezinho p {
+    font: 500 19px 'Heebo', sans-serif;
+    color: var(--color-font-one);
+    margin: 15px 0;
+}
+
+.jovens a {
+    font: 500 19px 'Heebo', sans-serif;
+    color: var(--color-font-one);
+    text-decoration: underline;
+}
+
+.jovens a:hover {
+    color: var(--color-hover-one);
+}
+
+.btn-div {
+    display: flex;
+    margin-top: 15px !important;
+}
+
+.btn-next {
+  font: 500 20px "Rubik", sans-serif !important;
+  text-decoration: none !important;
+  background: var(--background-primary);
+  color: var(--color-font-two) !important;
+  border: 2px solid rgb(31, 32, 68);
+  position: relative;
+  padding: 12px 30px 17px 35px;
+  text-align: center;
+  width: fit-content;
+}
+
+.btn-next::after,
+.btn-next::before {
+  background-color: rgb(31, 32, 68);
+  bottom: -6px;
+  content: "";
+  display: block;
+  position: absolute;
+  left: -7px;
+}
+
+.btn-next:hover::before {
+  right: -2px;
+  transition: 0.5s;
+}
+
+.btn-next:hover::after {
+  top: -2px;
+  transition: 0.5s;
+}
+
+.btn-next::after {
+  top: 15px;
+  transition: width 0.2s ease 0s;
+  width: 6px;
+}
+
+.btn-next::before {
+  height: 6px;
+  right: 30px;
+  transition: height 0.2s ease 0s;
+}
+
+.btn-next span {
+  position: relative;
+}
+
+.btn-next span:hover {
+  color: var(--color-hover-one);
+}
+
+.btn-next span::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: var(--color-hover-one);
+  position: absolute;
+  left: 0;
+  bottom: -0.01rem;
+  transition: width 0.3s;
+}
+
+.btn-next span:hover::after {
+  width: 100%;
+}
+
+.eventos h1 {
+    margin: 40px 0 25px 0;
+}
+
+.eventos p {
+    font: 400 15px 'Heebo', sans-serif;
+    color: var(--color-font-secondary);
+    text-align: center;
+}
+
+#btn-eventos {
+  justify-content: center;
+}
+
+@media screen and (max-width: 910px) {
+    .background-image {
+        height: 35rem;
+    }
+
+    .projetos {
+        margin-right: 0;
+    }
+
+    .collum {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .collum-one, .collum-two {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .collum-one {
+        margin-bottom: 70px;
+    }
+
+    .jovens, .pezinho {
+        width: min-content;
+    }
+
+    .jovens img {
+        width: 24rem;
+        height: calc(256px + 20.17px);
+    }
+
+    .eventos p {
+        width: 27rem;
+        margin: auto;
+    }
+
+    .eventos {
+        margin-top: 70px;
+    }
+
+    .main-onlys {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 528px) {
+    .eventos p {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .background-image {
+        height: 25rem;
+        background-position-y: right !important;
+        background-position-x: -598px;
+    }
+
+    .main-onlys h1 {
+        font-size: 43px;
+    }
+
+    .main-onlys img {
+        width: 15rem;
+        height: auto;
+    }
+
+    .jovens p, .jovens a, .pezinho p {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .main {
+        margin: 100px 25px;
+    }
+}
