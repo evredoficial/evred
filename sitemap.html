@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa do Site | EVRED - Evangelho do Reino de Deus</title>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="copyright" content="© 2021 Henry Rodrigues" />
+    <meta name="robots" content="all">
+
+    <link href="/assets/css/Styles03.css" rel="stylesheet"/>
+    <link href="/assets/css/wWhgWW.css" rel="stylesheet"/>
+    <link href="/assets/image/Flaticon.png" type="image/x-icon" rel="shortcut icon"/>
+    <link href="/assets/image/Flaticon.ico" type="image/x-icon" rel="shortcut icon"/>
+
+    <!-- Google Analitycs -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SRVMNYKXWJ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-SRVMNYKXWJ");
+      gtag("event", "login", { method: "Google" });
+
+      // Configure a target
+      gtag("config", "GA_MEASUREMENT_ID_1");
+      gtag("config", "GA_MEASUREMENT_ID_2", { groups: "agency" });
+      gtag("config", "GA_MEASUREMENT_ID_3", { groups: "agency" });
+      // Route this sign_in event to Analytics IDs in the 'agency' group:
+      gtag("event", "sign_in", { send_to: "agency" });
+
+      // Get a reference to the form element, assuming
+      // it contains the ID attribute "signup-form".
+      var form = document.getElementById("signup-form");
+
+      // Add a listener for the "submit" event.
+      form.addEventListener("submit", function (event) {
+        // Prevent the browser from submitting the form
+        // and thus unloading the current page.
+
+        event.preventDefault();
+
+        // Send the event to Google Analytics and
+        // resubmit the form once the hit is done.
+        gtag("event", "signup_form_complete", {
+          event_callback: function () {
+            form.submit();
+          },
+        });
+      });
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@800;900&family=Rubik:wght@400;500;600&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Overpass:wght@800&family=Rubik:wght@400;500;600&display=swap');
+    </style>
+</head>
+<body id="body">
+    <header class="header" id="header">
+        <section class="header-onlys">
+            <img src="/assets/image/Logo-EVRED.png" alt="EVRED - Evangelho do Reino de Deus"/>
+            <button class="btn-home" onclick="window.location.href='/'">Home</button>
+        </section>
+        <div class="divisor-header"></div>
+    </header>
+    <main class="main" id="main">
+        <section class="main-onlys">
+            <div class="links">
+                <line class="lines01">
+                    <nav class="nav-home">
+                        <h4>EVRED</h4>
+                        <div class="ly">
+                            <a href="./" target="_blank">Home</a>
+                            <a href="./apoie.html" target="_blank">Colabore</a>
+                            <a href="./nosso-chamado.html" target="_blank">Nosso Chmado</a>
+                            <a href="./contato.html" target="_blank">Contato</a>
+                        </div>
+                    </nav>
+                    <nav class="nav-bases">
+                        <h4>Bases</h4>
+                        <div class="ly">
+                            <a href="./bases/index.html" target="_blank">Home</a>
+                            <a href="./bases/RS/alvorada.html" target="_blank">Alvorada - RS</a>
+                            <a href="./bases/RS/juca-batista.html" target="_blank">Juca Batista - RS</a>
+                            <a href="./bases/RS/caxias-do-sul.html" target="_blank">Caxias do Sul - RS</a>
+                            <a href="./bases/RS/capao-da-canoa.html" target="_blank">Capão da Canoa - RS</a>
+                            <a href="./bases/RS/sao-martinho-da-serra.html" target="_blank">São Martinho - RS</a>
+                            <a href="./bases/RJ/maringa.html" target="_blank">Maringá - RJ</a>
+                        </div>
+                    </nav>
+                    <nav class="nav-projetos">
+                        <h4>Projetos</h4>
+                        <div class="ly">
+                            <a href="./projetos/index.html" target="_blank">Home</a>
+                            <a href="./projetos/jovens.html" target="_blank">Jovens</a>
+                            <a href="./projetos/pezinho.html" target="_blank">Projeto Pezinho</a>
+                        </div>
+                    </nav>
+                </line>
+                <line class="lines02">
+                    <nav class="nav-termos">
+                        <h4>Termos</h4>
+                        <div class="ly">
+                            <a href="/estatuto.html" target="_blank">Estatuto</a>
+                            <a href="https://pages.evred.com.br/termos/privacidade/" target="_blank">Política de Privacidade</a>
+                            <a href="https://pages.evred.com.br/termos/termo-de-uso/" target="_blank">Termo de Uso</a>
+                            <a href="https://pages.evred.com.br/termos/direito-autorais/" target="_blank">Direito Autorais</a>
+                            <a href="https://pages.evred.com.br/termos/termpo-de-contato/" target="_blank">Termpo de Contato</a>
+                        </div>
+                    </nav>
+                    <nav class="nav-pages">
+                        <h4>EVRED - Pages</h4>
+                        <div class="ly">
+                            <a href="https://pages.evred.com.br/central-de-ajuda/" target="_blank">Central de Ajuda</a>
+                            <a href="https://pages.evred.com.br/conselhos/fiscal/" target="_blank">Conselho Fiscal</a>
+                            <a href="https://pages.evred.com.br/conselhos/etica/" target="_blank">Conselho de Ética</a>
+                        </div>
+                    </nav>
+                    <nav class="nav-versiculos">
+                        <h4>Versiculos</h4>
+                        <div class="ly">
+                            <a href="./versiculos/AT/proverbios_22-6.html" target="_blank">Proverbios 22:6</a>
+                            <a href="./versiculos/NT/1-joao_5-14.html" target="_blank">1 João 5:14</a>
+                            <a href="./versiculos/NT/joao_1-12.html" target="_blank">João 1:12</a>
+                            <a href="./versiculos/NT/joao_8-12.html" target="_blank">João 8:12</a>
+                            <a href="./versiculos/NT/lucas_8-1.html" target="_blank">Lucas 8:1</a>
+                        </div>
+                    </nav>
+                </line>
+                <line class="lines03">
+                    <nav class="nav-outros">
+                        <h4>Outros</h4>
+                        <div class="ly">
+                            <a href="https://www.evred.com.br" target="_blank">EVRED</a>
+                            <a href="https://pages.evred.com.br" target="_blank">EVRED - Pages</a>
+                            <a href="https://radio.evred.com.br" target="_blank">EVRED - Radio</a>
+                            <a href="https://eventos.evred.com.br" target="_blank">EVRED - Eventos</a>
+                        </div>
+                    </nav>
+                </line>
+            </div>
+            <nav class="nav-outros-mobile">
+                <h4>Outros</h4>
+                <div class="ly">
+                    <a href="https://www.evred.com.br" target="_blank">EVRED</a>
+                    <a href="https://pages.evred.com.br" target="_blank">EVRED - Pages</a>
+                    <a href="https://radio.evred.com.br" target="_blank">EVRED - Radio</a>
+                    <a href="https://eventos.evred.com.br" target="_blank">EVRED - Eventos</a>
+                </div>
+            </nav>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <section class="footer-onlys">
+            <copyright>EVRED © <span id="ano"></span><span id="copyright"> - Todos Direitos Reservados</span></copyright>
+        </section>
+    </footer>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="/assets/javascript/year.js"></script>
+</html>
