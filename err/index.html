@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVRED - Evangelho do Reino de Deus</title>
+
+    <meta name="robots" content="none">
+
+    <link href="/assets/css/Styles01.css" rel="stylesheet"/>
+    <link href="/assets/css/main.css" rel="stylesheet"/>
+    <link href="/assets/image/Flaticon.png" type="image/x-icon" rel="shortcut icon"/>
+    <link href="/assets/image/Flaticon.ico" type="image/x-icon" rel="shortcut icon"/>
+
+    <!-- Google Analitycs -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SRVMNYKXWJ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-SRVMNYKXWJ");
+      gtag("event", "login", { method: "Google" });
+
+      // Configure a target
+      gtag("config", "GA_MEASUREMENT_ID_1");
+      gtag("config", "GA_MEASUREMENT_ID_2", { groups: "agency" });
+      gtag("config", "GA_MEASUREMENT_ID_3", { groups: "agency" });
+      // Route this sign_in event to Analytics IDs in the 'agency' group:
+      gtag("event", "sign_in", { send_to: "agency" });
+
+      // Get a reference to the form element, assuming
+      // it contains the ID attribute "signup-form".
+      var form = document.getElementById("signup-form");
+
+      // Add a listener for the "submit" event.
+      form.addEventListener("submit", function (event) {
+        // Prevent the browser from submitting the form
+        // and thus unloading the current page.
+
+        event.preventDefault();
+
+        // Send the event to Google Analytics and
+        // resubmit the form once the hit is done.
+        gtag("event", "signup_form_complete", {
+          event_callback: function () {
+            form.submit();
+          },
+        });
+      });
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@800&family=Rubik:wght@400;500;600&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Overpass:wght@800&family=Rubik:wght@400;500;600&display=swap');
+    </style>
+</head>
+<body>
+    <header class="header" id="header">
+        <section class="header-onlys">
+            <img src="/assets/image/Logo-EVRED.png" alt="EVRED - Evangelho do Reino de Deus"/>
+            <button class="btn-home" onclick="window.location.href='/'">Home</button>
+        </section>
+        <div class="divisor-header"></div>
+    </header>
+    <main class="main" id="main">
+        <section class="main-onlys">
+            <h1>Opss! Parece que estamos em reforma!</h1>
+            <p>EStamos melhorando nossos servidores, mas<br>não se preocupe logo estaremos de volta!</p>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <copyright>EVRED © <span id="ano"></span><span id="copyright"> - Todos Direitos Reservados</span></copyright>
+    </footer>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="/assets/javascript/year.js"></script>
+<script type="text/javascript" src="/assets/javascript/back-top.js"></script>
+</html>
+
+<style>
+    .footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background-color: #636789;
+      padding: 15px;
+    }
+
+    .footer copyright {
+      color: #a6b6cc !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+
+    #ano {
+      margin: 0 5px;
+    }
+</style>
