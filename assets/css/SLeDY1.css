@@ -74,7 +74,7 @@ i {
 }
 
 .chamado-igreja {
-    height: 30vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -416,26 +416,13 @@ i {
 }
 
 .bases-igreja {
-    height: 60vh;
-    display: inherit;
-    position: relative;
-    padding-top: 50px;
+    height: 70vh;
+    display: grid;
+    place-content: center;
 }
 
 .icon-rolante {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    bottom: 35px;
-}
-
-.icon-rolante svg {
-    width: 3.5rem;
-    height: fit-content;
-}
-
-.bases-h2 {
-    margin-top: 50px;
+  display: none;
 }
 
 .bases-h2 h2 {
