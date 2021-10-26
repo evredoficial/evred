@@ -727,6 +727,10 @@ i {
     padding: 0 15px;
   }
 
+  .jovens-igreja, .pezinho-igreja, .contato-igreja {
+    height: 35rem;
+  }
+
   .chamado-versiculo br {
     display: none;
   }
