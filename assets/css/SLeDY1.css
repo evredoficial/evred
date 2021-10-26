@@ -686,9 +686,17 @@ i {
     }
 }
 
-@media screen and (max-width: 557px) {
+@media screen and (max-width: 1089px) {
     .icon-rolante, .home-icon-rolante {
         display: none;
+    }
+
+    .home-igreja {
+      position: inherit;
+    }
+
+    .main a {
+      position: inherit;
     }
 }
 
@@ -705,4 +713,21 @@ i {
     .background-image-jovens {
       background-position: bottom;
     }
+}
+
+@media screen and (max-width: 375px) {
+  .home-igreja {
+    background-size: 65rem;
+    background-position: center;
+    background-position-y: -10rem;
+  }
+
+  .chamado-igreja {
+    height: 25rem;
+    padding: 0 15px;
+  }
+
+  .chamado-versiculo br {
+    display: none;
+  }
 }
