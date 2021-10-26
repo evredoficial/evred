@@ -16,85 +16,87 @@
   --white: #fff;
 }
 
-.home-icon-rolante a:hover::after, .icon-rolante a:hover::after {
-    width: 0 !important;
+.home-icon-rolante a:hover::after,
+.icon-rolante a:hover::after {
+  width: 0 !important;
 }
 
 .main {
-    margin: 0 !important;
+  margin: 0 !important;
 }
 
-.chamado-igreja, .bases-igreja {
-    background-color: var(--background-secondary);
-    width: 100%;
+.chamado-igreja,
+.bases-igreja {
+  background-color: var(--background-secondary);
+  width: 100%;
 }
 
 .home-igreja {
-    background-image: url(/assets/image/sixteen-miles-out-bIwFwR2fSsA-unsplash.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 90vh;
-    position: relative;
-    padding: 8%;
+  background-image: url(/assets/image/sixteen-miles-out-bIwFwR2fSsA-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  padding: 8%;
 }
 
 .home-h1 h1 {
-    font: 900 50px 'Overpass', sans-serif;
-    color: var(--color-font-primary);
-    text-transform: uppercase;
-    line-height: 70px;
+  font: 900 50px "Overpass", sans-serif;
+  color: var(--color-font-primary);
+  text-transform: uppercase;
+  line-height: 70px;
 }
 
 .home-p p {
-    font: 500 18px 'Heebo', sans-serif;
-    color: var(--color-font-secondary);
+  font: 500 18px "Heebo", sans-serif;
+  color: var(--color-font-secondary);
 }
 
 b {
-    font: 500 18px 'Heebo', sans-serif;
-    color: var(--color-hover-one);
+  font: 500 18px "Heebo", sans-serif;
+  color: var(--color-hover-one);
 }
 
 i {
-    font: 500 18px 'Heebo', sans-serif;
-    color: var(--color-font-two);
+  font: 500 18px "Heebo", sans-serif;
+  color: var(--color-font-two);
 }
 
 .home-icon-rolante {
-    position: absolute;
-    bottom: 4rem;
-    left: 8%;
+  position: absolute;
+  bottom: 4rem;
+  left: 8%;
 }
 
 .home-icon-rolante svg {
-    width: 3.5rem;
-    height: fit-content;
+  width: 3.5rem;
+  height: fit-content;
 }
 
 .chamado-igreja {
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .chamado-h2 h2 {
-    font: 900 40px 'Overpass', sans-serif;
-    color: var(--color-font-primary);
-    text-transform: uppercase;
+  font: 900 40px "Overpass", sans-serif;
+  color: var(--color-font-primary);
+  text-transform: uppercase;
 }
 
 .chamado-text {
-    text-align: center;
+  text-align: center;
 }
 
 .chamado-text a {
-    font: 500 18px 'Rubik', sans-serif;
-    color: var(--color-font-primary);
-    position: relative;
-    text-decoration: none;
+  font: 500 18px "Rubik", sans-serif;
+  color: var(--color-font-primary);
+  position: relative;
+  text-decoration: none;
 }
 
 .main a {
@@ -125,19 +127,19 @@ i {
 }
 
 .chamado-text p {
-    margin: 20px 0;
-    font:500 18px 'Heebo', sans-serif;
-    color: var(--color-font-secondary);
+  margin: 20px 0;
+  font: 500 18px "Heebo", sans-serif;
+  color: var(--color-font-secondary);
 }
 
 .btn {
-    width: 100%;
-    display: flex;
-    justify-content: end;
+  width: 100%;
+  display: flex;
+  justify-content: end;
 }
 
 .chamado-btn {
-    display: flex;
+  display: flex;
 }
 
 .chamado-btn {
@@ -203,65 +205,73 @@ i {
   width: 100%;
 }
 
-.jovens-igreja, .pezinho-igreja, .contato-igreja {
-    height: 50vh;
-    display: flex;
+.jovens-igreja,
+.pezinho-igreja,
+.contato-igreja {
+  height: 50vh;
+  display: flex;
 }
 
-.jovens-image, .pezinho-image, .contato-image {
-    width: 50vw;
-    height: 100%;
+.jovens-image,
+.pezinho-image,
+.contato-image {
+  width: 50vw;
+  height: 100%;
 }
 
 .background-image-jovens {
-    background-image: url(/assets/image/71874215_969779453361210_7091035218089345024_n.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
+  background-image: url(/assets/image/71874215_969779453361210_7091035218089345024_n.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .background-image-pezinho {
-    background-image: url(/assets/image/78397608_2176782609297996_5934957410736144384_n.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
+  background-image: url(/assets/image/78397608_2176782609297996_5934957410736144384_n.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
-.jovens-text, .pezinho-text, .contato-text {
-    width: 50vw;
-    display: grid;
-    place-content: center;
+.jovens-text,
+.pezinho-text,
+.contato-text {
+  width: 50vw;
+  display: grid;
+  place-content: center;
 }
 
-.jovens-text h2, .contato-text h2 {
-    font: 900 40px 'Overpass', sans-serif;
-    color: var(--color-font-primary);
-    text-transform: uppercase;
-    text-align: end;
+.jovens-text h2,
+.contato-text h2 {
+  font: 900 40px "Overpass", sans-serif;
+  color: var(--color-font-primary);
+  text-transform: uppercase;
+  text-align: end;
 }
 
-.jovens-text p, .contato-text p {
-    text-align: end;
-    margin: 20px 0;
-    font:500 18px 'Heebo', sans-serif;
-    color: var(--color-font-secondary);
+.jovens-text p,
+.contato-text p {
+  text-align: end;
+  margin: 20px 0;
+  font: 500 18px "Heebo", sans-serif;
+  color: var(--color-font-secondary);
 }
 
 .jovens-btn a {
-    font: 500 18px 'Rubik', sans-serif;
-    color: var(--color-font-primary);
-    position: relative;
-    text-decoration: none;
+  font: 500 18px "Rubik", sans-serif;
+  color: var(--color-font-primary);
+  position: relative;
+  text-decoration: none;
 }
 
 .btn {
-    width: 100%;
-    display: flex;
-    justify-content: end;
+  width: 100%;
+  display: flex;
+  justify-content: end;
 }
 
 .jovens-btn {
-    display: flex;
+  display: flex;
 }
 
 .jovens-btn {
@@ -328,24 +338,25 @@ i {
 }
 
 .pezinho-text h2 {
-    font: 900 40px 'Overpass', sans-serif;
-    color: var(--color-font-primary);
-    text-transform: uppercase;
-    text-align: start;
+  font: 900 40px "Overpass", sans-serif;
+  color: var(--color-font-primary);
+  text-transform: uppercase;
+  text-align: start;
 }
 
-.pezinho-text p, .pezinho-text a {
-    text-align: start;
-    margin: 20px 0;
-    font:500 18px 'Heebo', sans-serif;
-    color: var(--color-font-secondary);
+.pezinho-text p,
+.pezinho-text a {
+  text-align: start;
+  margin: 20px 0;
+  font: 500 18px "Heebo", sans-serif;
+  color: var(--color-font-secondary);
 }
 
 .pezinho-btn a {
-    font: 500 18px 'Rubik', sans-serif;
-    color: var(--color-font-primary);
-    position: relative;
-    text-decoration: none;
+  font: 500 18px "Rubik", sans-serif;
+  color: var(--color-font-primary);
+  position: relative;
+  text-decoration: none;
 }
 
 .pezinho-btn {
@@ -416,9 +427,9 @@ i {
 }
 
 .bases-igreja {
-    height: 70vh;
-    display: grid;
-    place-content: center;
+  height: 70vh;
+  display: grid;
+  place-content: center;
 }
 
 .icon-rolante {
@@ -426,25 +437,25 @@ i {
 }
 
 .bases-h2 h2 {
-    text-align: center;
-    font: 900 40px 'Overpass', sans-serif;
-    color: var(--color-font-primary);
-    text-transform: uppercase;
+  text-align: center;
+  font: 900 40px "Overpass", sans-serif;
+  color: var(--color-font-primary);
+  text-transform: uppercase;
 }
 
 .bases-igreja p {
-    width: 600px;
-    margin: 30px auto;
-    text-align: center;
-    font: 500 18px 'Heebo', sans-serif;
-    color: var(--color-font-secondary);
+  width: 600px;
+  margin: 30px auto;
+  text-align: center;
+  font: 500 18px "Heebo", sans-serif;
+  color: var(--color-font-secondary);
 }
 
 .bases-btn a {
-    font: 500 18px 'Rubik', sans-serif;
-    color: var(--color-font-primary);
-    position: relative;
-    text-decoration: none;
+  font: 500 18px "Rubik", sans-serif;
+  color: var(--color-font-primary);
+  position: relative;
+  text-decoration: none;
 }
 
 .bases-btn {
@@ -516,21 +527,21 @@ i {
 }
 
 .background-image-contato {
-    background-image: url(/assets/image/convertkit-waxDxYM2XI4-unsplash.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
+  background-image: url(/assets/image/convertkit-waxDxYM2XI4-unsplash.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .contato-btn a {
-    font: 500 18px 'Rubik', sans-serif;
-    color: var(--color-font-primary);
-    position: relative;
-    text-decoration: none;
+  font: 500 18px "Rubik", sans-serif;
+  color: var(--color-font-primary);
+  position: relative;
+  text-decoration: none;
 }
 
 .contato-btn {
-    display: flex;
+  display: flex;
 }
 
 .contato-btn {
@@ -597,125 +608,139 @@ i {
 }
 
 @media screen and (max-width: 1024px) {
-    .home-icon-rolante svg, .icon-rolante svg {
-        width: 2.5rem;
-    }
+  .home-icon-rolante svg,
+  .icon-rolante svg {
+    width: 2.5rem;
+  }
 
-    .bases-h2 {
-        margin-top: 0;
-    }
+  .bases-h2 {
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .home-igreja {
-        height: 50vh;
-    }
+  .home-igreja {
+    height: 50vh;
+  }
 
-    .home-h1 h1 {
-        display: none;
-    }
+  .home-h1 h1 {
+    display: none;
+  }
 
-    .home-none-h1, .home-none-h1 h1 {
-        display: block !important;
-    }
+  .home-none-h1,
+  .home-none-h1 h1 {
+    display: block !important;
+  }
 
-    .home-none-h1 h1 {
-        font: 900 40px 'Overpass', sans-serif;
-        color: var(--color-font-primary);
-        text-transform: uppercase;
-        line-height: 50px;
-    }
+  .home-none-h1 h1 {
+    font: 900 40px "Overpass", sans-serif;
+    color: var(--color-font-primary);
+    text-transform: uppercase;
+    line-height: 50px;
+  }
 
-    .home-none-h1 span {
-        display: none;
-    }
+  .home-none-h1 span {
+    display: none;
+  }
 
-    .home-p p, .home-p b, .home-p i {
-        font-size: 15px; 
-    }
+  .home-p p,
+  .home-p b,
+  .home-p i {
+    font-size: 15px;
+  }
 
-    .chamado-igreja {
-        flex-direction: column;
-        justify-content: space-evenly;
-        height: 55vh;
-    }
+  .chamado-igreja {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 55vh;
+  }
 
-    .chamado-h2 h2 {
-        text-align: center;
-    }
+  .chamado-h2 h2 {
+    text-align: center;
+  }
 
-    .btn {
-        justify-content: center;
-    }
+  .btn {
+    justify-content: center;
+  }
 
-    .jovens-igreja, .contato-igreja {
-        flex-direction: column;
-        height: 93vh;
-    }
+  .jovens-igreja,
+  .contato-igreja {
+    flex-direction: column;
+    height: 93vh;
+  }
 
-    .jovens-image, .contato-image, .pezinho-image {
-        width: 100%;
-        background-size: cover;
-    }
+  .jovens-image,
+  .contato-image,
+  .pezinho-image {
+    width: 100%;
+    background-size: cover;
+  }
 
-    .jovens-text, .contato-text, .pezinho-text {
-        margin: 25px 0;
-        width: 100%;
-    }
+  .jovens-text,
+  .contato-text,
+  .pezinho-text {
+    margin: 25px 0;
+    width: 100%;
+  }
 
-    .jovens-text h2, .contato-text h2, .jovens-text p, .contato-text p {
-        text-align: center;
-    }
+  .jovens-text h2,
+  .contato-text h2,
+  .jovens-text p,
+  .contato-text p {
+    text-align: center;
+  }
 
-    .pezinho-igreja {
-        flex-direction: column-reverse;
-        height: 93vh;
-    }
+  .pezinho-igreja {
+    flex-direction: column-reverse;
+    height: 93vh;
+  }
 
-    .pezinho-text h2, .pezinho-text p {
-        text-align: center;
-    }
+  .pezinho-text h2,
+  .pezinho-text p {
+    text-align: center;
+  }
 
-    .btn-pezinho {
-        margin: auto;
-    }
+  .btn-pezinho {
+    margin: auto;
+  }
 
-    .bases-igreja p {
-        margin: 30px 50px;
-        width: auto;
-    }
+  .bases-igreja p {
+    margin: 30px 50px;
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 1089px) {
-    .icon-rolante, .home-icon-rolante {
-        display: none;
-    }
+  .icon-rolante,
+  .home-icon-rolante {
+    display: none;
+  }
 
-    .home-igreja {
-      position: inherit;
-    }
+  .home-igreja {
+    position: inherit;
+  }
 
-    .main a {
-      position: inherit;
-    }
+  .main a {
+    position: inherit;
+  }
 }
 
 @media screen and (max-width: 425px) {
-    .bases-h2 h2 {
-        font-size: 30px;
-    }
+  .bases-h2 h2 {
+    font-size: 30px;
+  }
 
-    .bases-igreja p {
-        margin: 30px 15px;
-        font-size: 15px;
-    }
+  .bases-igreja p {
+    margin: 30px 15px;
+    font-size: 15px;
+  }
 
-    .background-image-jovens {
-      background-position: bottom;
-    }
+  .background-image-jovens {
+    background-position: bottom;
+  }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .home-igreja {
     background-size: 65rem;
     background-position: center;
@@ -727,7 +752,9 @@ i {
     padding: 0 15px;
   }
 
-  .jovens-igreja, .pezinho-igreja, .contato-igreja {
+  .jovens-igreja,
+  .pezinho-igreja,
+  .contato-igreja {
     height: 35rem;
   }
 
