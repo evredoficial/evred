@@ -1,0 +1,721 @@
+:root {
+  --background-primary: #ecf0f1;
+  --background-secondary: #e5e5e5;
+  --background-footer: #636789;
+  --color-one: #ffffff;
+  --color-two: #636363;
+  --color-hover-one: #1766ff;
+  --color-hover-two: #636789;
+  --color-hover-three: #a6b6cc;
+  --color-font-primary: #3f4359;
+  --color-font-secondary: #636789;
+  --color-font-one: #767676;
+  --color-font-two: #27ae60;
+  --line-divisor-primary: #636789;
+  --line-divisor-secondary: #e5e5e5;
+  --white: #fff;
+}
+
+.home-icon-rolante a:hover::after, .icon-rolante a:hover::after {
+    width: 0 !important;
+}
+
+.main {
+    margin: 0 !important;
+}
+
+.chamado-igreja, .bases-igreja {
+    background-color: var(--background-secondary);
+    width: 100%;
+}
+
+.home-igreja {
+    background-image: url(/assets/image/sixteen-miles-out-bIwFwR2fSsA-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    padding: 8%;
+}
+
+.home-h1 h1 {
+    font: 900 50px 'Overpass', sans-serif;
+    color: var(--color-font-primary);
+    text-transform: uppercase;
+    line-height: 70px;
+}
+
+.home-p p {
+    font: 500 18px 'Heebo', sans-serif;
+    color: var(--color-font-secondary);
+}
+
+b {
+    font: 500 18px 'Heebo', sans-serif;
+    color: var(--color-hover-one);
+}
+
+i {
+    font: 500 18px 'Heebo', sans-serif;
+    color: var(--color-font-two);
+}
+
+.home-icon-rolante {
+    position: absolute;
+    bottom: 4rem;
+    left: 8%;
+}
+
+.home-icon-rolante svg {
+    width: 3.5rem;
+    height: fit-content;
+}
+
+.chamado-igreja {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.chamado-h2 h2 {
+    font: 900 40px 'Overpass', sans-serif;
+    color: var(--color-font-primary);
+    text-transform: uppercase;
+}
+
+.chamado-text {
+    text-align: center;
+}
+
+.chamado-text a {
+    font: 500 18px 'Rubik', sans-serif;
+    color: var(--color-font-primary);
+    position: relative;
+    text-decoration: none;
+}
+
+.main a {
+  position: relative;
+  width: max-content;
+}
+
+.main a:hover {
+  color: var(--color-hover-one);
+  text-decoration: none;
+}
+
+.main a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: var(--color-hover-one);
+
+  position: absolute;
+  left: 0;
+  bottom: -0.02rem;
+
+  transition: width 0.3s;
+}
+
+.main a:hover::after {
+  width: 100%;
+}
+
+.chamado-text p {
+    margin: 20px 0;
+    font:500 18px 'Heebo', sans-serif;
+    color: var(--color-font-secondary);
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.chamado-btn {
+    display: flex;
+}
+
+.chamado-btn {
+  font: 500 20px "Rubik", sans-serif !important;
+  text-decoration: none !important;
+  background: var(--background-secondary);
+  color: var(--color-font-two) !important;
+  border: 2px solid rgb(31, 32, 68);
+  position: relative;
+  padding: 12px 30px 17px 35px;
+  text-align: center;
+  width: fit-content;
+}
+
+.chamado-btn::after,
+.chamado-btn::before {
+  background-color: rgb(31, 32, 68);
+  bottom: -6px;
+  content: "";
+  display: block;
+  position: absolute;
+  right: -7px;
+}
+
+.chamado-btn:hover::before {
+  left: -2px;
+  transition: 0.5s;
+}
+
+.chamado-btn:hover::after {
+  top: -2px;
+  transition: 0.5s;
+}
+
+.chamado-btn::after {
+  top: 15px;
+  transition: width 0.2s ease 0s;
+  width: 6px;
+}
+
+.chamado-btn::before {
+  height: 6px;
+  left: 30px;
+  transition: height 0.2s ease 0s;
+}
+
+.chamado-btn span {
+  position: relative;
+}
+
+.chamado-btn span::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: var(--color-hover-one);
+  position: absolute;
+  left: 0;
+  bottom: -0.01rem;
+  transition: width 0.3s;
+}
+
+.chamado-btn span:hover::after {
+  width: 100%;
+}
+
+.jovens-igreja, .pezinho-igreja, .contato-igreja {
+    height: 50vh;
+    display: flex;
+}
+
+.jovens-image, .pezinho-image, .contato-image {
+    width: 50vw;
+    height: 100%;
+}
+
+.background-image-jovens {
+    background-image: url(/assets/image/71874215_969779453361210_7091035218089345024_n.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.background-image-pezinho {
+    background-image: url(/assets/image/78397608_2176782609297996_5934957410736144384_n.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.jovens-text, .pezinho-text, .contato-text {
+    width: 50vw;
+    display: grid;
+    place-content: center;
+}
+
+.jovens-text h2, .contato-text h2 {
+    font: 900 40px 'Overpass', sans-serif;
+    color: var(--color-font-primary);
+    text-transform: uppercase;
+    text-align: end;
+}
+
+.jovens-text p, .contato-text p {
+    text-align: end;
+    margin: 20px 0;
+    font:500 18px 'Heebo', sans-serif;
+    color: var(--color-font-secondary);
+}
+
+.jovens-btn a {
+    font: 500 18px 'Rubik', sans-serif;
+    color: var(--color-font-primary);
+    position: relative;
+    text-decoration: none;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.jovens-btn {
+    display: flex;
+}
+
+.jovens-btn {
+  font: 500 20px "Rubik", sans-serif !important;
+  text-decoration: none !important;
+  background: var(--background-primary);
+  color: var(--color-font-two) !important;
+  border: 2px solid rgb(31, 32, 68);
+  position: relative;
+  padding: 12px 30px 17px 35px;
+  text-align: center;
+  width: fit-content;
+}
+
+.jovens-btn::after,
+.jovens-btn::before {
+  background-color: rgb(31, 32, 68);
+  bottom: -6px;
+  content: "";
+  display: block;
+  position: absolute;
+  right: -7px;
+}
+
+.jovens-btn:hover::before {
+  left: -2px;
+  transition: 0.5s;
+}
+
+.jovens-btn:hover::after {
+  top: -2px;
+  transition: 0.5s;
+}
+
+.jovens-btn::after {
+  top: 15px;
+  transition: width 0.2s ease 0s;
+  width: 6px;
+}
+
+.jovens-btn::before {
+  height: 6px;
+  left: 30px;
+  transition: height 0.2s ease 0s;
+}
+
+.jovens-btn span {
+  position: relative;
+}
+
+.jovens-btn span::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: var(--color-hover-one);
+  position: absolute;
+  left: 0;
+  bottom: -0.01rem;
+  transition: width 0.3s;
+}
+
+.jovens-btn span:hover::after {
+  width: 100%;
+}
+
+.pezinho-text h2 {
+    font: 900 40px 'Overpass', sans-serif;
+    color: var(--color-font-primary);
+    text-transform: uppercase;
+    text-align: start;
+}
+
+.pezinho-text p, .pezinho-text a {
+    text-align: start;
+    margin: 20px 0;
+    font:500 18px 'Heebo', sans-serif;
+    color: var(--color-font-secondary);
+}
+
+.pezinho-btn a {
+    font: 500 18px 'Rubik', sans-serif;
+    color: var(--color-font-primary);
+    position: relative;
+    text-decoration: none;
+}
+
+.pezinho-btn {
+  font: 500 20px "Rubik", sans-serif !important;
+  text-decoration: none !important;
+  background: var(--background-primary);
+  color: var(--color-font-two) !important;
+  border: 2px solid rgb(31, 32, 68);
+  position: relative;
+  padding: 12px 30px 17px 35px;
+  text-align: center;
+  width: fit-content;
+}
+
+.pezinho-btn::after,
+.pezinho-btn::before {
+  background-color: rgb(31, 32, 68);
+  bottom: -6px;
+  content: "";
+  display: block;
+  position: absolute;
+  left: -7px;
+}
+
+.pezinho-btn:hover::before {
+  right: -2px;
+  transition: 0.5s;
+}
+
+.pezinho-btn:hover::after {
+  top: -2px;
+  transition: 0.5s;
+}
+
+.pezinho-btn::after {
+  top: 15px;
+  transition: width 0.2s ease 0s;
+  width: 6px;
+}
+
+.pezinho-btn::before {
+  height: 6px;
+  right: 30px;
+  transition: height 0.2s ease 0s;
+}
+
+.pezinho-btn span {
+  position: relative;
+}
+
+.pezinho-btn span:hover {
+  color: var(--color-hover-one);
+}
+
+.pezinho-btn span::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: var(--color-hover-one);
+  position: absolute;
+  left: 0;
+  bottom: -0.01rem;
+  transition: width 0.3s;
+}
+
+.pezinho-btn span:hover::after {
+  width: 100%;
+}
+
+.bases-igreja {
+    height: 60vh;
+    display: inherit;
+    position: relative;
+    padding-top: 50px;
+}
+
+.icon-rolante {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 35px;
+}
+
+.icon-rolante svg {
+    width: 3.5rem;
+    height: fit-content;
+}
+
+.bases-h2 {
+    margin-top: 50px;
+}
+
+.bases-h2 h2 {
+    text-align: center;
+    font: 900 40px 'Overpass', sans-serif;
+    color: var(--color-font-primary);
+    text-transform: uppercase;
+}
+
+.bases-igreja p {
+    width: 600px;
+    margin: 30px auto;
+    text-align: center;
+    font: 500 18px 'Heebo', sans-serif;
+    color: var(--color-font-secondary);
+}
+
+.bases-btn a {
+    font: 500 18px 'Rubik', sans-serif;
+    color: var(--color-font-primary);
+    position: relative;
+    text-decoration: none;
+}
+
+.bases-btn {
+  font: 500 20px "Rubik", sans-serif !important;
+  text-decoration: none !important;
+  background: var(--background-secondary);
+  color: var(--color-font-two) !important;
+  border: 2px solid rgb(31, 32, 68);
+  position: relative;
+  padding: 12px 30px 17px 35px;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+}
+
+.bases-btn::after,
+.bases-btn::before {
+  background-color: rgb(31, 32, 68);
+  bottom: -6px;
+  content: "";
+  display: block;
+  position: absolute;
+  left: -7px;
+}
+
+.bases-btn:hover::before {
+  right: -2px;
+  transition: 0.5s;
+}
+
+.bases-btn:hover::after {
+  top: -2px;
+  transition: 0.5s;
+}
+
+.bases-btn::after {
+  top: 15px;
+  transition: width 0.2s ease 0s;
+  width: 6px;
+}
+
+.bases-btn::before {
+  height: 6px;
+  right: 30px;
+  transition: height 0.2s ease 0s;
+}
+
+.bases-btn span {
+  position: relative;
+}
+
+.bases-btn span:hover {
+  color: var(--color-hover-one);
+}
+
+.bases-btn span::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: var(--color-hover-one);
+  position: absolute;
+  left: 0;
+  bottom: -0.01rem;
+  transition: width 0.3s;
+}
+
+.bases-btn span:hover::after {
+  width: 100%;
+}
+
+.background-image-contato {
+    background-image: url(/assets/image/convertkit-waxDxYM2XI4-unsplash.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.contato-btn a {
+    font: 500 18px 'Rubik', sans-serif;
+    color: var(--color-font-primary);
+    position: relative;
+    text-decoration: none;
+}
+
+.contato-btn {
+    display: flex;
+}
+
+.contato-btn {
+  font: 500 20px "Rubik", sans-serif !important;
+  text-decoration: none !important;
+  background: var(--background-primary);
+  color: var(--color-font-two) !important;
+  border: 2px solid rgb(31, 32, 68);
+  position: relative;
+  padding: 12px 30px 17px 35px;
+  text-align: center;
+  width: fit-content;
+}
+
+.contato-btn::after,
+.contato-btn::before {
+  background-color: rgb(31, 32, 68);
+  bottom: -6px;
+  content: "";
+  display: block;
+  position: absolute;
+  right: -7px;
+}
+
+.contato-btn:hover::before {
+  left: -2px;
+  transition: 0.5s;
+}
+
+.contato-btn:hover::after {
+  top: -2px;
+  transition: 0.5s;
+}
+
+.contato-btn::after {
+  top: 15px;
+  transition: width 0.2s ease 0s;
+  width: 6px;
+}
+
+.contato-btn::before {
+  height: 6px;
+  left: 30px;
+  transition: height 0.2s ease 0s;
+}
+
+.contato-btn span {
+  position: relative;
+}
+
+.contato-btn span::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: var(--color-hover-one);
+  position: absolute;
+  left: 0;
+  bottom: -0.01rem;
+  transition: width 0.3s;
+}
+
+.contato-btn span:hover::after {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .home-icon-rolante svg, .icon-rolante svg {
+        width: 2.5rem;
+    }
+
+    .bases-h2 {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home-igreja {
+        height: 50vh;
+    }
+
+    .home-h1 h1 {
+        display: none;
+    }
+
+    .home-none-h1, .home-none-h1 h1 {
+        display: block !important;
+    }
+
+    .home-none-h1 h1 {
+        font: 900 40px 'Overpass', sans-serif;
+        color: var(--color-font-primary);
+        text-transform: uppercase;
+        line-height: 50px;
+    }
+
+    .home-none-h1 span {
+        display: none;
+    }
+
+    .home-p p, .home-p b, .home-p i {
+        font-size: 15px; 
+    }
+
+    .chamado-igreja {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 55vh;
+    }
+
+    .chamado-h2 h2 {
+        text-align: center;
+    }
+
+    .btn {
+        justify-content: center;
+    }
+
+    .jovens-igreja, .contato-igreja {
+        flex-direction: column;
+        height: 93vh;
+    }
+
+    .jovens-image, .contato-image, .pezinho-image {
+        width: 100%;
+        background-size: cover;
+    }
+
+    .jovens-text, .contato-text, .pezinho-text {
+        margin: 25px 0;
+        width: 100%;
+    }
+
+    .jovens-text h2, .contato-text h2, .jovens-text p, .contato-text p {
+        text-align: center;
+    }
+
+    .pezinho-igreja {
+        flex-direction: column-reverse;
+        height: 93vh;
+    }
+
+    .pezinho-text h2, .pezinho-text p {
+        text-align: center;
+    }
+
+    .btn-pezinho {
+        margin: auto;
+    }
+
+    .bases-igreja p {
+        margin: 30px 50px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 557px) {
+    .icon-rolante, .home-icon-rolante {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .bases-h2 h2 {
+        font-size: 30px;
+    }
+
+    .bases-igreja p {
+        margin: 30px 15px;
+        font-size: 15px;
+    }
+
+    .background-image-jovens {
+      background-position: bottom;
+    }
+}

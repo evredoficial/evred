@@ -14,3 +14,100 @@
   --line-divisor-primary: #636789;
   --line-divisor-secondary: #e5e5e5;
 }
+
+.background-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.background-image img {
+  width: 80vw;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.links-red {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.main nav {
+  display: flex;
+  align-items: center;
+}
+
+.links-red img {
+  width: 3rem;
+}
+
+.inside-01, .inside-02 {
+  width: fit-content;
+}
+
+.links-red h4 {
+  font: 600 30px 'Rubik', sans-serif;
+  color: var(--color-font-primary);
+  margin-bottom: 15px;
+}
+
+.inside-01 {
+  margin-right: 5rem;
+}
+
+.inside-02 {
+  margin-left: 5rem;
+}
+
+.div01, .div02, .div04, .div05 {
+  margin-bottom: 60px;
+}
+
+.links-red a {
+  margin-right: 20px;
+}
+
+.links-red a:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+
+.main img, .background-image img {
+  user-select: none;
+}
+
+@media screen and (max-width: 768px) {
+  .inside-01, .inside-02 {
+    margin: 0;
+  }
+
+  .inside-01 {
+    margin-bottom: 60px !important;
+  }
+
+  .links-red {
+    flex-direction: column;
+  }
+
+  .background-image img {
+    width: 95vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .links-red h4 {
+    font-size: 22px;
+  }
+
+  .links-red img {
+    width: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .main {
+    margin: 100px 25px;
+  }
+}

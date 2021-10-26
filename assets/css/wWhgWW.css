@@ -62,7 +62,7 @@
   width: 100%;
 }
 
-.lines01, .lines02 {
+.lines01, .lines02, .lines03 {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -76,7 +76,7 @@
     margin: 0 50px;
 }
 
-.nav-outros-mobile {
+.nav-outros-mobile, .nav-dev-mobile {
     display: none;
 }
 
@@ -85,11 +85,11 @@
         flex-direction: column;
     }
 
-    .nav-outros {
+    .nav-outros, .nav-dev {
         display: none;
     }
 
-    .nav-outros-mobile {
+    .nav-outros-mobile, .nav-dev-mobile {
         display: block;
     }
 
