@@ -2,14 +2,14 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-eq vbuiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EVRED - Evangelho do Reino de Deus</title>
 
-    <meta name="robots" content="index,follow">
+    <meta name="robots" content="none">
 
-    <link href="/assets/css/Styles02.css" rel="stylesheet"/>
-    <link href="/assets/css/SLeDY1.css" rel="stylesheet"/>
+    <link href="/assets/css/Styles01.css" rel="stylesheet"/>
+    <link href="/assets/css/main.css" rel="stylesheet"/>
     <link href="/assets/image/Flaticon.png" type="image/x-icon" rel="shortcut icon"/>
     <link href="/assets/image/Flaticon.ico" type="image/x-icon" rel="shortcut icon"/>
 
@@ -55,262 +55,60 @@
     </script>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
-      @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@800;900&family=Rubik:wght@400;500;600&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@800&family=Rubik:wght@400;500;600&display=swap');
       @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Overpass:wght@800&family=Rubik:wght@400;500;600&display=swap');
     </style>
 </head>
-<body id="body">
+<body>
     <header class="header" id="header">
         <section class="header-onlys">
             <img src="/assets/image/Logo-EVRED.png" alt="EVRED - Evangelho do Reino de Deus"/>
-            <div class="onlys-nav">
-                <nav class="container">
-                    <div class="menu">
-                        <ul class="grid">
-                            <li><a class="navs" href="/">Home</a></li>
-                            <li><a class="navs" href="/bases/">Endereços</a></li>
-                            <li><a class="navs" href="/projetos/">Projetos</a></li>
-                            <li><a class="navs" id="navs" href="/contato.html">Contato</a></li>
-                        </ul>
-                    </div>
-                    <div class="toggle open">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
-                            <path d="M0 0h24v24H0V0z" fill="none" />
-                            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
-                        </svg>
-                    </div>
-                    <div class="toggle close">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
-                            <path d="M0 0h24v24H0V0z" fill="none" />
-                            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z" />
-                        </svg>
-                    </div>
-                </nav>
-            </div>
+            <button class="btn-home" onclick="window.location.href='/'">Home</button>
         </section>
         <div class="divisor-header"></div>
     </header>
     <main class="main" id="main">
-        <section class="home-igreja" id="home">
-            <div class="home-text">
-                <div class="home-h1">
-                    <h1>Seja</h1>
-                    <h1>Bem-Vindo</h1>
-                    <h1>Ao EVRED</h1>
-                    <div class="home-none-h1" style="display: none;">
-                        <h1><span>Seja</span> Bem-Vindo<br>Ao EVRED</h1>
-                    </div>
-                </div>
-                <div class="home-p">
-                    <p><i>Quem nós somos?</i> Queremos ser uma</p>
-                    <p>igreja <b>100%</b> fora do banco!</p>
-                    <div class="home-none" style="display: none;">
-                        <p><i>Quem nós somos?</i> Queremos ser uma igreja <b>100%</b> fora do banco!</p>
-                    </div>
-                </div>
-                <div class="home-icon-rolante">
-                    <a href="#chamado">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
-                            <g>
-                                <path xmlns="http://www.w3.org/2000/svg" d="m256 512c-141.164062 0-256-114.835938-256-256s114.835938-256 256-256 256 114.835938 256 256-114.835938 256-256 256zm0-480c-123.519531 0-224 100.480469-224 224s100.480469 224 224 224 224-100.480469 224-224-100.480469-224-224-224zm0 0" fill="#1766ff" data-original="#000000" class=""/>
-                                <path xmlns="http://www.w3.org/2000/svg" d="m256 405.332031c-8.832031 0-16-7.167969-16-16v-266.664062c0-8.832031 7.167969-16 16-16s16 7.167969 16 16v266.664062c0 8.832031-7.167969 16-16 16zm0 0" fill="#1766ff" data-original="#000000" class=""/>
-                                <path xmlns="http://www.w3.org/2000/svg" d="m256 405.332031c-4.097656 0-8.191406-1.554687-11.308594-4.691406l-85.332031-85.332031c-6.25-6.253906-6.25-16.386719 0-22.636719s16.382813-6.25 22.636719 0l74.023437 74.027344 74.027344-74.027344c6.25-6.25 16.386719-6.25 22.636719 0s6.25 16.382813 0 22.636719l-85.335938 85.332031c-3.15625 3.136719-7.25 4.691406-11.347656 4.691406zm0 0" fill="#1766ff" data-original="#000000" class=""/>
-                            </g>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <div class="divisor"></div>
-        <section class="chamado-igreja" id="chamado">
-            <div class="chamado-h2">
-                <h2>Nosso<br>Chamado</h2>
-                <div class="chamado-none" style="display: none;">
-                    <h2>Nosso Chamado</h2>
-                </div>
-            </div>
-            <div class="chamado-text">
-                <section class="chamado-versiculo">
-                    <a href="/versiculos/NT/lucas_8-1.html">Lucas 8:1 <span>- ARA</span></a>
-                    <p>"... andava Jesus de cidade em cidade <br>e de aldeia em aldeia, pregando e anunciando <br> o evangelho do reino de Deus..." </p>
-                    <div class="versiculos-none" style="display: none;">
-                        <p>"... andava Jesus de cidade em cidade e de aldeia em aldeia, pregando e anunciando o evangelho do reino de Deus..." </p>
-                    </div>
-                </section>
-                <div class="btn">
-                    <div class="chamado-btn">
-                        <a href="/nosso-chamado.html">
-                            <span>Ver Mais</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="jovens-igreja" id="jovens">
-            <section class="jovens-image">
-                <div class="background-image-jovens"></div>
-            </section>
-            <section class="jovens-text">
-                <h2>Grupo de<br>Jovens</h2>
-                <div class="jovens-none" style="display: none;">
-                    <h2>Grupo de Jovens</h2>
-                </div>
-                <p>Somos os jovens do EVRED, que tem<br>a missão de ser a Luz do mundo.</p>
-                <div class="btn">
-                    <div class="jovens-btn">
-                        <a href="/projetos/jovens.html"><span>Ver Mais</span></a>
-                    </div>
-                </div>
-            </section>
-        </section>
-        <section class="pezinho-igreja" id="pezinho">
-            <section class="pezinho-text">
-                <h2>Projeto<br>Pezinho</h2>
-                <div class="pezinho-none" style="display: none;">
-                    <h2>Projeto Pezinho</h2>
-                </div>
-                <p>Projeto criado para seguir o<br>versiculos de <a href="/versiculos/AT/proverbios_22-6.html" target="_blank">Proverbios 22:6</a>.</p>
-                <div class="btn-pezinho">
-                    <div class="pezinho-btn">
-                        <a href="/projetos/pezinho.html"><span>Ver Mais</span></a>
-                    </div>
-                </div>
-            </section>
-            <section class="pezinho-image">
-                <div class="background-image-pezinho"></div>
-            </section>
-        </section>
-        <section class="bases-igreja" id="bases">
-            <div class="bases-h2">
-                <h2>Visite Nossas</h2>
-                <h2>Bases</h2>
-            </div>
-            <p>O EVRED se encontra em 6 cidades do Sul do Brasil, veja qual se encontra mais perto da sua residencia, mas se não tiver não se preocupe estamos implantanto aos poucos os cultos onlines na nossas igrejas.</p>
-            <div class="bases-btn">
-                <a href="/bases/index.html"><span>Ver Mais</span></a>
-            </div>
-            <div class="icon-rolante">
-                <a href="#contato">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
-                        <g>
-                            <path xmlns="http://www.w3.org/2000/svg" d="m256 512c-141.164062 0-256-114.835938-256-256s114.835938-256 256-256 256 114.835938 256 256-114.835938 256-256 256zm0-480c-123.519531 0-224 100.480469-224 224s100.480469 224 224 224 224-100.480469 224-224-100.480469-224-224-224zm0 0" fill="#1766ff" data-original="#000000" class=""/>
-                            <path xmlns="http://www.w3.org/2000/svg" d="m256 405.332031c-8.832031 0-16-7.167969-16-16v-266.664062c0-8.832031 7.167969-16 16-16s16 7.167969 16 16v266.664062c0 8.832031-7.167969 16-16 16zm0 0" fill="#1766ff" data-original="#000000" class=""/>
-                            <path xmlns="http://www.w3.org/2000/svg" d="m256 405.332031c-4.097656 0-8.191406-1.554687-11.308594-4.691406l-85.332031-85.332031c-6.25-6.253906-6.25-16.386719 0-22.636719s16.382813-6.25 22.636719 0l74.023437 74.027344 74.027344-74.027344c6.25-6.25 16.386719-6.25 22.636719 0s6.25 16.382813 0 22.636719l-85.335938 85.332031c-3.15625 3.136719-7.25 4.691406-11.347656 4.691406zm0 0" fill="#1766ff" data-original="#000000" class=""/>
-                        </g>
-                    </svg>
-                </a>
-            </div>
-        </section>
-        <section class="contato-igreja" id="contato">
-            <section class="contato-image">
-                <div class="background-image-contato"></div>
-            </section>
-            <section class="contato-text">
-                <h2>Entre em<br>Contato</h2>
-                <p>Estamos sempre dispostos a entregar<br>o melhor atentimento a todos.</p>
-                <div class="btn">
-                    <div class="contato-btn">
-                        <a href="/contato.html"><span>Ver Mais</span></a>
-                    </div>
-                </div>
-            </section>
+        <section class="main-onlys">
+            <h1>Opss! Parece que estamos em reforma!</h1>
+            <p>EStamos melhorando nossos servidores, mas<br>não se preocupe logo estaremos de volta!</p>
         </section>
     </main>
     <footer class="footer" id="footer">
-        <section class="footer-onlys">
-            <div class="primary-footer">
-                <line class="primary-line-footer">
-                    <div class="about">
-                        <img src="/assets/image/Logo-EVRED.png" alt="EVRED - Evangelho do Reino de Deus"/>
-                        <p>EVRED uma igreja que sergiu no texto bíblico de <a href="/versiculos/NT/lucas_8-1.html">Lucas 8:1</a>, com a missão de ser 100% fora do banco para evangelizar todas as pessoas.</p>
-                    </div>
-                    <div class="li">
-                        <nav class="institucional">
-                            <h3>Institucional</h3>
-                            <a href="/">EVRED</a>
-                            <a href="/contato.html">Contato</a>
-                            <a href="/apoie.html">Colabore</a>
-                            <a href="/nosso-chamado.html">Nosso Chamado</a>
-                            <a href="/projetos/">Projetos</a>
-                            <a href="/sitemap.html">SiteMap</a>
-                        </nav>
-                        <nav class="bases">
-                            <h3>Endereços</h3>
-                            <a href="/bases/RS/alvorada.html">Alvorada</a>
-                            <a href="/bases/RS/caxias-do-sul.html">Caxias do Sul</a>
-                            <a href="/bases/RS/capao-da-canoa.html">Capão da Canoa</a>
-                            <a href="/bases/RS/juca-batista.html">Juca Batista</a>
-                            <a href="/bases/RS/sao-martinho-da-serra.html">São Martinho</a>
-                            <a href="/bases/RJ/maringa.html">Maringá</a>
-                        </nav>                 
-                    </div>
-                </line>
-                <line class="secondary-line-footer">
-                    <div class="li">
-                        <nav class="sites">
-                            <h3>Sites</h3>
-                            <a href="https://www.evred.com.br/">EVRED</a>
-                            <a href="https://radio.evred.com.br/">Rádio - EVRED</a>
-                            <a href="https://pages.evred.com.br/">Pages - EVRED</a>
-                            <a href="https://eventos.evred.com.br/">Eventos - EVRED</a>
-                        </nav>
-                        <nav class="projetos">
-                            <h3>Projetos</h3>
-                            <a href="/projetos/">Projetos</a>
-                            <a href="/projetos/pezinho.html">Projeto Pezinho</a>
-                            <a href="/projetos/jovens.html">Jovens - EVRED</a>
-                            <a href="/projetos/elas-por-elas">Elas po Elas</a>
-                        </nav>
-                    </div>
-                    <div class="li">
-                        <nav class="servicos">
-                            <h3>Serviços</h3>
-                            <a href="https://pages.evred.com.br/central-de-ajuda">Central de Ajuda</a>
-                            <a href="https://pages.evred.com.br/central-de-ajuda/hc/new.html">Preciso de Ajuda</a>
-                            <a href="https://pages.evred.com.br/conselhos/fiscal/">Conselho Fiscal</a>
-                            <a href="https://pages.evred.com.br/conselhos/etica/">Conselho de Ética</a>
-                        </nav>
-                        <nav class="terms">
-                            <h3>Termos</h3>
-                            <a href="https://pages.evred.com/termos/privacidade.html">Privacidade</a>
-                            <a href="https://pages.evred.com/termos/termo-de-uso.html">Termo de Uso</a>
-                            <a href="https://pages.evred.com/termos/direito-autorais.html">Direito Autorais</a>
-                            <a href="https://pages.evred.com/termos/termo-de-contato.html">Termo de Contato</a>
-                            <a href="/estatuto">Estatuto</a>
-                        </nav>
-                    </div>
-                </line>
-            </div>
-            <div class="divisor-footer"></div>
-            <div class="secondary-footer">
-                <copyright>EVRED © <span id="ano"></span><span id="copyright"> - Todos Direitos Reservados</span></copyright>
-                <nav class="footer-links">
-                    <div class="sociais">
-                        <a href="https://www.instagram.com/evredoficial/" target="_blank">
-                            <img src="/assets/svg/logotipo-do-instagram.svg" alt="Instagram | EVRED - Oficial">
-                        </a>
-                        <a id="youtube" href="https://www.youtube.com/channel/UCqHBmxdW9SJHvQ1Lysn-aNA/channels" target="_blank">
-                            <img src="/assets/svg/youtube.svg" alt="Youtube | EVRED - Oficial">
-                        </a>
-                        <a href="https://www.facebook.com/EVREDOficial/" target="_blank">
-                            <img src="/assets/svg/facebook.svg" alt="Facebook | EVRED - Oficial">
-                        </a>
-                    </div>
-                    <div class="back-top">
-                        <button class="btn-top" id="top">
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M14.8627 3.225L13.3794 1.75L5.1377 10L13.3877 18.25L14.8627 16.775L8.0877 10L14.8627 3.225Z" fill="#8692A6"/>
-                            </svg>
-                        </button>
-                    </div>
-                </nav>
-            </div>
-        </section>
+        <copyright>EVRED © <span id="ano"></span><span id="copyright"> - Todos Direitos Reservados</span></copyright>
     </footer>
 </body>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="/assets/javascript/year.js"></script>
 <script type="text/javascript" src="/assets/javascript/back-top.js"></script>
-<script type="text/javascript" src="/assets/javascript/menu.js"></script>
-<script type="text/javascript" src="/assets/javascript/form.js"></script>
 </html>
+
+<style>
+    .footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background-color: #636789;
+      padding: 15px;
+    }
+
+    .footer copyright {
+      color: #a6b6cc !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+
+    #ano {
+      margin: 0 5px;
+    }
+
+    @media screen and (max-width: 500px) {
+      .main {
+        margin: 80px 20px;
+      }
+
+      .main h1 {
+        font-size: 30px;
+      }
+    }
+</style>
