@@ -740,7 +740,7 @@ i {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
   .home-igreja {
     background-size: 65rem;
     background-position: center;
