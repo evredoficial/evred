@@ -215,7 +215,6 @@ i {
 .jovens-image,
 .pezinho-image,
 .contato-image {
-  width: 50vw;
   height: 100%;
 }
 
@@ -669,13 +668,6 @@ i {
     height: 93vh;
   }
 
-  .jovens-image,
-  .contato-image,
-  .pezinho-image {
-    width: 100%;
-    background-size: cover;
-  }
-
   .jovens-text,
   .contato-text,
   .pezinho-text {
@@ -692,7 +684,6 @@ i {
 
   .pezinho-igreja {
     flex-direction: column-reverse;
-    height: 93vh;
   }
 
   .pezinho-text h2,
@@ -755,7 +746,7 @@ i {
   .jovens-igreja,
   .pezinho-igreja,
   .contato-igreja {
-    height: 35rem;
+    height: min-content;
   }
 
   .chamado-versiculo br {
