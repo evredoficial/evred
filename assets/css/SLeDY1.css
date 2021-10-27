@@ -663,15 +663,21 @@ i {
   }
 
   .jovens-igreja,
-  .contato-igreja {
-    flex-direction: column;
-    height: 93vh;
+  .contato-igreja,
+  .pezinho-igreja {
+    display: grid;
+    height: 100%;
+  }
+
+  .contato-image, .jovens-image {
+    height: 20rem;
   }
 
   .jovens-text,
   .contato-text,
   .pezinho-text {
     margin: 25px 0;
+    height: 20rem;
     width: 100%;
   }
 
@@ -680,10 +686,6 @@ i {
   .jovens-text p,
   .contato-text p {
     text-align: center;
-  }
-
-  .pezinho-igreja {
-    flex-direction: column-reverse;
   }
 
   .pezinho-text h2,
@@ -698,6 +700,20 @@ i {
   .bases-igreja p {
     margin: 30px 50px;
     width: auto;
+  }
+
+  .pezinho-image {
+    display: none;
+  }
+
+  .pezinho-image-two {
+    height: 20rem;
+  }
+  
+  .background-image-pezinho-two {
+    background-image: url(/assets/image/78397608_2176782609297996_5934957410736144384_n.jpg);
+    background-size: cover;
+    height: 100%;
   }
 }
 
@@ -751,31 +767,5 @@ i {
 
   .chamado-versiculo br {
     display: none;
-  }
-
-  .pezinho-image {
-    display: none;
-  }
-
-  .pezinho-igreja {
-    flex-direction: column !important;
-  }
-
-  .pezinho-image-two {
-    height: 100%;
-  }
-
-  .background-image-pezinho-two {
-    background-image: url(/assets/image/78397608_2176782609297996_5934957410736144384_n.jpg);
-    background-size: cover;
-    height: 100%;
-  }
-
-  .pezinho-igreja, .jovens-igreja, .contato-igreja {
-    height: 606px !important;
-  }
-
-  .pezinho-image-two, .jovens-image, .contato-image {
-    width: 100% !important;
   }
 }
