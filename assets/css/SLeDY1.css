@@ -737,19 +737,41 @@ i {
     background-position: center;
     background-position-y: -10rem;
   }
+/* 
+  .diviser {
+    background: var(--color-two);
+    height: 1px;
+    margin: 15px 0;
+  } */
 
   .chamado-igreja {
     height: 25rem;
     padding: 0 15px;
   }
 
-  .jovens-igreja,
-  .pezinho-igreja,
-  .contato-igreja {
-    height: min-content;
-  }
-
   .chamado-versiculo br {
     display: none;
+  }
+
+  .pezinho-image {
+    display: none;
+  }
+
+  .pezinho-igreja {
+    flex-direction: column !important;
+  }
+
+  .pezinho-image-two {
+    height: 100%;
+  }
+
+  .background-image-pezinho-two {
+    background-image: url(/assets/image/78397608_2176782609297996_5934957410736144384_n.jpg);
+    background-size: cover;
+    height: 100%;
+  }
+
+  .pezinho-igreja {
+    height: 90vh;
   }
 }
