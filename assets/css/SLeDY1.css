@@ -771,7 +771,7 @@ i {
     height: 100%;
   }
 
-  .pezinho-igreja {
-    height: 90vh;
+  .pezinho-igreja, .jovens-igreja, .contato-igreja {
+    height: 606px;
   }
 }
